@@ -36,10 +36,11 @@ private:
 	bool mIsRunning;
 
 	// Gameplay specific class members
-	// Will first do pong
-	int mPaddleDir;
+	int mP1PaddleDir;
+	int mP2PaddleDir;
 	// Position of paddle
-	Vector2 mPaddlePos;
+	Vector2 mP1PaddlePos;
+	Vector2 mP2PaddlePos;
 	// Position of ball
 	Vector2 mBallPos;
 	// Velocity of ball
